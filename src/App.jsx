@@ -2,7 +2,6 @@ import Navbar from "./components/Navbar";
 import { FiSearch } from "react-icons/fi";
 import { AiFillPlusCircle } from "react-icons/ai";
 import { useEffect, useState } from "react";
-import { getDocs } from "firebase/firestore";
 
 import { collection, onSnapshot } from "firebase/firestore";
 import { db } from "./config/firebase";
